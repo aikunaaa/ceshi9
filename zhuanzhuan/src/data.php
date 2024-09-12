@@ -1,6 +1,6 @@
 <?php
 $prize_arr = array(
-	'0' => array('id'=>1,'min'=>151,'max'=>209,'prize'=>'一等奖','v'=>1,'flag'=>'flag{You_are_really_the_European_emperor!!!}'),
+	'0' => array('id'=>1,'min'=>151,'max'=>209,'prize'=>'一等奖','v'=>1,'flag'=>'FLAGFLAGFLAG'),
 	'1' => array('id'=>2,'min'=>91,'max'=>149,'prize'=>'二等奖','v'=>9,'flag'=>'Wow! jiangsir告诉你很接近了，但是还是没有!'),
 	'2' => array('id'=>3,'min'=>array(1,331),'max'=>array(29,359),'prize'=>'三等奖','v'=>50,'flag'=>'好不容易抽个三等奖，还是没有flag，嘿嘿!'),
 	'3' => array('id'=>4,'min'=>271,'max'=>329,'prize'=>'四等奖','v'=>100,'flag'=>'jiangsir感到很无语，成天就想要flag!'),
