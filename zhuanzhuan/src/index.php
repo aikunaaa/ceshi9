@@ -73,10 +73,10 @@
                     easing: $.easing.easeOutSine,
                     callback: function() {
                         if (p == '谢谢参与') {
-                            var con = confirm('恭喜你，没中奖!\n' + '你的flag是：' + flag + '\n还要再来一次吗?');
+                            var con = confirm('jiangsir告诉你!\n' + '你的flag是：' + flag + '\n再来一回吧?');
                         } else {
-                            var con = confirm('恭喜你，中了' + p + '!\n' + '你的flag是：' + flag +
-                                '\n还要再来一次吗?');
+                            var con = confirm('jiangsir告诉你' + p + '!\n' + '你的flag是：' + flag +
+                                '\n再来一回吧?');
                         }
                         if (con) {
                             lottery();
@@ -90,7 +90,7 @@
     }
     $(function() {
         $("#returnbutton").click(function() {
-            var con = confirm('真的要放弃吗?就差辣么一点点了!');
+            var con = confirm('jiangsir告诉你你真的快了!');
             if (con) {
                 window.location.href = "https://www.xp0int.top/challenges";
             }
@@ -113,7 +113,7 @@
             <div id="disk"></div>
             <div id="start"><img src="start.png" id="startbtn"></div>
             <div id="text1">
-                <h3 id="returnbutton">得了~菜鸡！</h3>
+                <h3 id="returnbutton">本题呼吁禁止赌博！</h3>
             </div>
         </div>
         <div class="ad_demo">
